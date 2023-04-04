@@ -1,0 +1,105 @@
+*{
+	margin:0 ;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.Man{
+	position: relative;
+	width: 100%;
+    height: 100vh;
+    background:darkmagenta;
+}
+
+nav{
+	display:flex ;
+	width: 84%;
+	margin: 70;
+	padding: 20px 100px;
+	align-items: center;
+	justify-content:space-between ;
+	background: gainsboro;
+    
+}
+
+nav ul li{
+	display:inline-block ;
+	list-style:none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	text-decoration:underline;
+	color: darkgoldenrod;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: black;
+	background: wheat;
+
+}
+
+.details{
+	margin-left:8% ;
+	margin-top: 13%;
+}
+
+.details h1{
+	font-size: 50px;
+	color:whitesmoke ;
+	margin-bottom: 20px;
+}
+
+span{
+	color: darksalmon;
+}
+
+.details p{
+	color: black;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.details a{
+	background: black;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: indianred;
+	display: inline-block;
+	margin: 30px 0 ;
+	border-radius: 5px;
+
+}
+
+.Images{
+	width: 30%;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+	top: 170px;
+	background: darkcyan;
+	bottom: 100px;
+	margin-top: 10px;
+}
+
+.Images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform:translateX(-50%) ;
+    transition:bottom 2s , left 2s;
+}
+
+.Images:hover .Shape{
+    right: 100px;
+    bottom: 40px;
+
+}
+
+.Images:hover .Boy{
+    left: 40%;
+}
