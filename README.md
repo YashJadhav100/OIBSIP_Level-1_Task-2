@@ -43,13 +43,18 @@ This is a personal portfolio webpage built using HTML and CSS. It presents a cle
 - **Style:** Uses custom fonts, layout adjustments, hover effects, and media queries (if extended).
 
 ## 📂 File Structure
-
 .
+
 ├── portfolio.html # Main HTML file
+
 ├── styleA.css # CSS file for styles
+
 ├── Logo.jpg # Logo image
+
 ├── Shape.png # Decorative shape
+
 ├── Image1.png # Profile illustration
+
 ├── Resume1.0.pdf # Resume file (optional)
 
 
